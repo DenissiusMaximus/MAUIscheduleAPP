@@ -1,15 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:ScheduleApp.Models"
-             x:Class="ScheduleApp.Views.WeekPage1">
+             x:Class="ScheduleApp.Views.WeekPage1" 
+             Title="Week1">
+
     <ContentPage.BindingContext>
-        <models:Weeks />
+        <models:Week1 />
     </ContentPage.BindingContext>
-    <VerticalStackLayout>
-        <Label 
-            Text="{Binding week1Text}"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    
+    
+    
 </ContentPage>

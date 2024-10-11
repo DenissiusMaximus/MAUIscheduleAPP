@@ -4,7 +4,6 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ScheduleApp.Models
@@ -21,6 +20,20 @@ namespace ScheduleApp.Models
             File.WriteAllText(filePath, json);
 
             return filePath;
+        }
+
+        public static Dictionary<string, string> CreateScheduleTemplate()
+        {
+            return new Dictionary<string, string>
+            {
+                { "8:30-9:50",   "" },
+                { "10:00-11:20", "" },
+                { "11:40-13:00", "" },
+                { "13:30-14:50", "" },
+                { "15:00-16:20", "" },
+                { "16:30-17:50", "" },
+                { "18:00-19:20", "" },
+            };
         }
 
         public static Dictionary<string, List<string>> scheduleList()

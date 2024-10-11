@@ -178,3 +178,8 @@ C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0
 C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HtmlAgilityPack.dll
 C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.sourcelink.json
+C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll

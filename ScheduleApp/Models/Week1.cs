@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScheduleApp.Models
 {
-    internal class Weeks
+    class Week1
     {
-
-        public string week1Text => ScrapSchedule.saveToJson();
     }
 }
