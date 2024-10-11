@@ -1,0 +1,1 @@
+C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\ScheduleApp.csproj;x64
