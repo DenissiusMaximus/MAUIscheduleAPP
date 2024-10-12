@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>USER</Machine>
+    <Machine>DENIS</Machine>
     <WindowsUser>sloke</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,15 +10,15 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.scheduleapp</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>23D5319D7DF5DD66D6102040A192D9ADCEC23F803CB6CDF0509644E5257A1291</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B0C02FDA0D5FF54F63F48AF3A6E6FFF2AB4A27B0DCD64B51B77E22A21160944B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.scheduleapp_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.scheduleapp_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.scheduleapp</RegisteredPackageID>
@@ -26,268 +26,268 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-11T20:06:25.713</Modified>
+      <Modified>2024-10-12T12:47:35.702</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-11T19:40:09.867</Modified>
+      <Modified>2024-10-12T12:22:03.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.runtimeconfig.json">
       <PackagePath>ScheduleApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-11T19:40:09.658</Modified>
+      <Modified>2024-10-11T20:30:24.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.dll">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.dll">
       <PackagePath>ScheduleApp.dll</PackagePath>
-      <Modified>2024-10-11T20:06:25.482</Modified>
+      <Modified>2024-10-12T12:47:35.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ScheduleApp.exe</PackagePath>
-      <Modified>2024-10-11T20:06:25.485</Modified>
+      <Modified>2024-10-12T12:47:35.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2024-10-09T21:15:37.606</Modified>
+      <Modified>2024-10-11T20:23:38.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:53.512</Modified>
+      <Modified>2024-10-11T20:23:42.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:53.526</Modified>
+      <Modified>2024-10-11T20:23:42.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:53.546</Modified>
+      <Modified>2024-10-11T20:23:42.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:53.577</Modified>
+      <Modified>2024-10-11T20:23:42.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:53.701</Modified>
+      <Modified>2024-10-11T20:23:42.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2024-10-09T21:15:37.601</Modified>
+      <Modified>2024-10-11T20:23:42.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2024-10-09T21:15:37.602</Modified>
+      <Modified>2024-10-11T20:23:42.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.930</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.929</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.928</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.927</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.926</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.925</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.925</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.925</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-10-09T21:15:54.925</Modified>
+      <Modified>2024-10-11T20:30:22.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.deps.json">
+    <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.deps.json">
       <PackagePath>ScheduleApp.deps.json</PackagePath>
-      <Modified>2024-10-11T19:40:09.542</Modified>
+      <Modified>2024-10-12T12:22:03.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sloke\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -1,12 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 
 namespace ScheduleApp.Models
 {
-    class Week1
+    public class Week1
     {
+        public ObservableCollection<DaySchedule> Days { get; set; }
+
+        public Week1()
+        {
+
+            Days = new ObservableCollection<DaySchedule>();
+
+            string[] daysList = { "Понеділок 1", "Вівторок 1", "Середа 1", "Четвер 1", "П'ятниця 1" };
+
+            foreach (var day in daysList)
+            {
+                var subjDict = ScrapSchedule.getDic(day);
+                var scheduleItems = new ObservableCollection<ScheduleItem>();
+                foreach (var item in subjDict) 
+                {
+                    if (item.Value != "")
+                    {
+                        scheduleItems.Add(new ScheduleItem { Time = item.Key, Subject = item.Value });
+                    }
+                }
+
+                Days.Add(new DaySchedule { Day = day, ScheduleItems = scheduleItems });
+            }
+        }
+    }
+
+    public class DaySchedule
+    {
+        public string Day { get; set; }
+        public ObservableCollection<ScheduleItem> ScheduleItems { get; set; }
+    }
+
+    public class ScheduleItem
+    {
+        public string Time { get; set; }
+        public string Subject { get; set; }
     }
 }

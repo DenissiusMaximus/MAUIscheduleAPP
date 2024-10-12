@@ -1,1 +1,1 @@
-C:\Users\sloke\source\repos\ScheduleApp\ScheduleApp\ScheduleApp.csproj;x64
+C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\ScheduleApp.csproj;x64

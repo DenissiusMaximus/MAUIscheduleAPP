@@ -10,6 +10,45 @@ namespace ScheduleApp.Models
 {
     internal class ScrapSchedule
     {
+
+        public static Dictionary<string, string> getDic(string day)
+        {
+
+            var dayDic = CreateScheduleTemplate();
+
+
+            foreach (var i in ReadScheduleFromJson())
+            {
+                if (i.Key == day)
+                {
+                    foreach (var j in i.Value)
+                    {
+                        if (dayDic.ContainsKey(j))
+                        {
+                            dayDic[j] = i.Value[i.Value.IndexOf(j) + 1];
+                        }
+                    }
+
+                    break;
+
+                }
+            }
+
+            return dayDic;
+
+        }
+        public static Dictionary<string, List<string>> ReadScheduleFromJson()
+        {
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string filePath = Path.Combine(appDirectory, "schedule.json");
+
+            string json = File.ReadAllText(filePath);
+
+            Dictionary<string, List<string>> schedule = JsonConvert.DeserializeObject<Dictionary<string, List<string>>>(json);
+
+            return schedule;
+        }
+
         public static string saveToJson()
         {
             string appDirectory = FileSystem.AppDataDirectory;
