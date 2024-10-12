@@ -49,12 +49,12 @@ namespace ScheduleApp.Models
             return schedule;
         }
 
-        public static string saveToJson()
+        public static string saveToJson(string url)
         {
             string appDirectory = FileSystem.AppDataDirectory;
             string filePath = Path.Combine(appDirectory, "schedule.json");
 
-            string json = JsonConvert.SerializeObject(scheduleList(), Formatting.Indented);
+            string json = JsonConvert.SerializeObject(scheduleList(url), Formatting.Indented);
 
             File.WriteAllText(filePath, json);
 
@@ -75,7 +75,7 @@ namespace ScheduleApp.Models
             };
         }
 
-        public static Dictionary<string, List<string>> scheduleList()
+        public static Dictionary<string, List<string>> scheduleList(string url)
         {
             var scheduleList = new Dictionary<string, List<string>>
             {
@@ -92,7 +92,6 @@ namespace ScheduleApp.Models
                 { "П'ятниця 2", new List<string>() },
             };
 
-            string url = "https://rozklad.ztu.edu.ua/schedule/group/%D0%86%D0%9F%D0%97-24-3?new";
             var web = new HtmlWeb();
 
             var document = web.Load(url);

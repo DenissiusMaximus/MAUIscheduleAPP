@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-12T12:47:35.702</Modified>
+      <Modified>2024-10-12T15:59:58.217</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ScheduleApp.dll">
       <PackagePath>ScheduleApp.dll</PackagePath>
-      <Modified>2024-10-12T12:47:35.388</Modified>
+      <Modified>2024-10-12T15:59:57.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ScheduleApp.exe</PackagePath>
-      <Modified>2024-10-12T12:47:35.388</Modified>
+      <Modified>2024-10-12T15:59:57.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sloke\source\repos\MAUIscheduleAPP\ScheduleApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

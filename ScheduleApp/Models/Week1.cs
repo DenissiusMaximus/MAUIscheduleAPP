@@ -25,7 +25,7 @@ namespace ScheduleApp.Models
                     }
                 }
 
-                Days.Add(new DaySchedule { Day = day, ScheduleItems = scheduleItems });
+                Days.Add(new DaySchedule { Day = day.Substring(0, day.Length-2), ScheduleItems = scheduleItems });
             }
         }
     }

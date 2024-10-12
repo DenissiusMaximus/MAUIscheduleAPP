@@ -2,19 +2,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ScheduleApp.Views.SetSchedule"
-             Title="SetSchedule">
+             Title="Розклад">
     <VerticalStackLayout>
         <Label 
-            Text="SetSchedule"
+            x:Name="UrlEditor"
+            Text="Додайте посилання на розклад"
+            FontSize="18"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Start"
+            Margin="5,5,5,10"/>
         <Editor x:Name="TextEditor"
-            Text="{Binding Text}"
+            Text=""
             Placeholder="Enter your note"
-            HeightRequest="100" />
+            HeightRequest="100"
+            Margin="7,7,7,10"/>
         <Button Text="Save"
-            Clicked="SaveButton_Clicked" />
+            Clicked="SaveButton_Clicked"
+            Margin="7,7,7,10"/>
         <Button Text="Cancel"
-            Clicked="CancelButton_Clicked" />
+            Clicked="CancelButton_Clicked"
+                Margin="7,7,7,10"/>
     </VerticalStackLayout>
 </ContentPage>

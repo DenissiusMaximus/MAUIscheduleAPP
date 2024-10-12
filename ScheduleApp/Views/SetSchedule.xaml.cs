@@ -12,6 +12,9 @@ public partial class SetSchedule : ContentPage
 
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
+        var text = TextEditor.Text;
+
+        ScrapSchedule.saveToJson(text);
 
         await Shell.Current.GoToAsync("..");
     }  
