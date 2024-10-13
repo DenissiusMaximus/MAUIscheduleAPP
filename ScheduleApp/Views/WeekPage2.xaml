@@ -1,12 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ScheduleApp.Models"
              x:Class="ScheduleApp.Views.WeekPage2"
-             Title="WeekPage2">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Week1">
+    <ContentPage.BindingContext>
+        <models:Week2 />
+    </ContentPage.BindingContext>
+    <CarouselView ItemsSource="{Binding Days}">
+        <CarouselView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout>
+                    <Label Text="{Binding Day}" 
+                           FontSize="Large" 
+                           HorizontalOptions="Center" />
+                    <CollectionView ItemsSource="{Binding ScheduleItems}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Label Text="{Binding Time}" 
+                                           FontSize="Medium" 
+                                           HorizontalOptions="Start" />
+                                    <Label Text="{Binding Subject}" 
+                                           FontSize="Small" 
+                                           HorizontalOptions="Start" />
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+    </CarouselView>
 </ContentPage>

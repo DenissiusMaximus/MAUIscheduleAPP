@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\weekpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\weekpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\weekpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\weekpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\weekpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\weekpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\models\\week2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\week2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\setschedule.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\setschedule.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\weekpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\weekpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\models\\week1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\week1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\setschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -35,6 +59,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeekPage2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage2.xaml.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\WeekPage2.xaml.cs",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage2.xaml.cs",
+              "RelativeToolTip": "ScheduleApp\\Views\\WeekPage2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:16:48.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeekPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage1.xaml.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\WeekPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage1.xaml.cs",
+              "RelativeToolTip": "ScheduleApp\\Views\\WeekPage1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:16:51.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeekPage2.xaml",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage2.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\WeekPage2.xaml",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage2.xaml",
+              "RelativeToolTip": "ScheduleApp\\Views\\WeekPage2.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T15:16:44.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeekPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage1.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\WeekPage1.xaml",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\WeekPage1.xaml",
+              "RelativeToolTip": "ScheduleApp\\Views\\WeekPage1.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T15:16:41.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Week1.cs",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Week1.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\Week1.cs",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Week1.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\Week1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:16:07.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Week2.cs",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Week2.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Models\\Week2.cs",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Models\\Week2.cs",
+              "RelativeToolTip": "ScheduleApp\\Models\\Week2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:16:05.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SetSchedule.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\SetSchedule.xaml.cs",
               "RelativeDocumentMoniker": "ScheduleApp\\Views\\SetSchedule.xaml.cs",
@@ -47,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SetSchedule.xaml",
               "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\SetSchedule.xaml",
               "RelativeDocumentMoniker": "ScheduleApp\\Views\\SetSchedule.xaml",
@@ -55,8 +157,7 @@
               "RelativeToolTip": "ScheduleApp\\Views\\SetSchedule.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-13T14:20:35.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T14:20:35.749Z"
             }
           ]
         }
