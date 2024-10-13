@@ -39,7 +39,7 @@ namespace ScheduleApp.Models
         }
         public static Dictionary<string, List<string>> ReadScheduleFromJson()
         {
-            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string appDirectory = FileSystem.AppDataDirectory;
             string filePath = Path.Combine(appDirectory, "schedule.json");
 
             string json = File.ReadAllText(filePath);
@@ -143,11 +143,19 @@ namespace ScheduleApp.Models
 
                             else
                                 subject = $"{findSubject[0].InnerText}";
+
+                            if (findSubject[0].InnerText != "Іноземна мова")
+                                subject += $" | {i.SelectSingleNode(".//span[@class='room  fchanged ']").InnerText.Trim()}";
                         }
                         else
                         {
                             if (groups[0] != null && groups[1] != null)
-                                subject = $"{findSubject[0].InnerText}({groups[0]})\n   {findSubject[1].InnerText}({groups[1]})";
+                            {
+                                var aud1 = i.SelectNodes(".//span[@class='room  fchanged ']")[0].InnerText;
+                                var aud2 = i.SelectNodes(".//span[@class='room  fchanged ']")[1].InnerText;
+
+                                subject = $"{findSubject[0].InnerText}({groups[0]} | {aud1.Trim()})\n{findSubject[1].InnerText}({groups[1]} | {aud2.Trim()})";
+                            }
                             else
                             {
                                 for (int j = 0; j <= 1; j++)
@@ -157,12 +165,6 @@ namespace ScheduleApp.Models
                                 }
                             }
                         }
-
-                        if (subject == "Іноземна мова")
-                            teacher = "Анна Миколаївна";
-                        else
-                            teacher = i.SelectSingleNode(".//div[@class='teacher']").InnerText;
-
 
                         scheduleList[day].AddRange(new List<string> { hour, subject });
                     }

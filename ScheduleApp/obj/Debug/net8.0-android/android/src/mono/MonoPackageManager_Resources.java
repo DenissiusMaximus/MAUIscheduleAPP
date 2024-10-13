@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ScheduleApp.dll" comes first in this list. */
 		"ScheduleApp.dll",
+		"CommunityToolkit.Maui.dll",
+		"CommunityToolkit.Maui.Core.dll",
 		"GoogleGson.dll",
 		"HtmlAgilityPack.dll",
 		"Microsoft.Extensions.Configuration.dll",

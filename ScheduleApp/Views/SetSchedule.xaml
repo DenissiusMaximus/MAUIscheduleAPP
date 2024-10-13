@@ -13,7 +13,7 @@
             Margin="5,5,5,10"/>
         <Editor x:Name="TextEditor"
             Text=""
-            Placeholder="Enter your note"
+            Placeholder="URL"
             HeightRequest="100"
             Margin="7,7,7,10"/>
         <Button Text="Save"
@@ -22,5 +22,12 @@
         <Button Text="Cancel"
             Clicked="CancelButton_Clicked"
                 Margin="7,7,7,10"/>
+
+        <ActivityIndicator x:Name="LoadingIndicator"
+                   IsRunning="{Binding IsLoading}"
+                   IsVisible="{Binding IsLoading}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+
     </VerticalStackLayout>
 </ContentPage>

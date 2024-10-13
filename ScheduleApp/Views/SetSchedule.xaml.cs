@@ -1,28 +1,45 @@
 using ScheduleApp.Models;
+using System.ComponentModel;
+using CommunityToolkit.Maui.Alerts;
 
-namespace ScheduleApp.Views;
-
-public partial class SetSchedule : ContentPage
+namespace ScheduleApp.Views
 {
-
-    public SetSchedule()
-	{
-		InitializeComponent();
-	}
-
-    private async void SaveButton_Clicked(object sender, EventArgs e)
+    public partial class SetSchedule : ContentPage, INotifyPropertyChanged
     {
-        var text = TextEditor.Text;
+        private const string TextEditorKey = "TextEditorContent";
 
-        ScrapSchedule.saveToJson(text);
+        public SetSchedule()
+        {
+            InitializeComponent();
+            BindingContext = this;
 
-        await Shell.Current.GoToAsync("..");
-    }  
-    
-    private async void CancelButton_Clicked(object sender, EventArgs e)
-    {
-        
+            TextEditor.Text = Preferences.Get(TextEditorKey, string.Empty);
+        }
 
-        await Shell.Current.GoToAsync("..");
+        private async void SaveButton_Clicked(object sender, EventArgs e)
+        {
+            var text = TextEditor.Text;
+            try
+            {
+                var toast = Toast.Make("Паршу... Секунду...");
+                await toast.Show();
+                ScrapSchedule.saveToJson(text);
+
+                Preferences.Set(TextEditorKey, text);
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message, "OK");
+            }
+
+            
+            await Shell.Current.GoToAsync("..");
+        }
+
+        private async void CancelButton_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("..");
+        }
+
     }
 }

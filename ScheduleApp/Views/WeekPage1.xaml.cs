@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace ScheduleApp.Views;
 
 public partial class WeekPage1 : ContentPage
@@ -6,6 +8,14 @@ public partial class WeekPage1 : ContentPage
 	{
         InitializeComponent();
 
-        //Routing.RegisterRoute(nameof(Views.WeekPage1), typeof(Views.WeekPage1));
+        BindingContext = new Models.Week1();
+
     }
+
+    protected override void OnAppearing()
+    {
+        ((Models.Week1)BindingContext).LoadData();
+    }
+
+
 }

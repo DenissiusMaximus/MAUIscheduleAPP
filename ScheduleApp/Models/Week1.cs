@@ -1,32 +1,38 @@
 ﻿using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace ScheduleApp.Models
 {
     public class Week1
     {
-        public ObservableCollection<DaySchedule> Days { get; set; }
 
-        public Week1()
-        {
+        public ObservableCollection<DaySchedule> Days { get; set; } = new ObservableCollection<DaySchedule>();
 
-            Days = new ObservableCollection<DaySchedule>();
+        public Week1() =>
+            LoadData();
 
-            string[] daysList = { "Понеділок 1", "Вівторок 1", "Середа 1", "Четвер 1", "П'ятниця 1" };
 
-            foreach (var day in daysList)
+        public void LoadData()
             {
-                var subjDict = ScrapSchedule.getDic(day);
-                var scheduleItems = new ObservableCollection<ScheduleItem>();
-                foreach (var item in subjDict) 
+                Days.Clear();
+
+                string[] daysList = { "Понеділок 1", "Вівторок 1", "Середа 1", "Четвер 1", "П'ятниця 1" };
+
+                foreach (var day in daysList)
                 {
-                    if (item.Value != "")
+                    var subjDict = ScrapSchedule.getDic(day);
+                    var scheduleItems = new ObservableCollection<ScheduleItem>();
+                    foreach (var item in subjDict) 
                     {
-                        scheduleItems.Add(new ScheduleItem { Time = item.Key, Subject = item.Value });
+                        if (item.Value != "")
+                        {
+                            scheduleItems.Add(new ScheduleItem { Time = item.Key, Subject = item.Value });
                     }
+                    }
+
+                    Days.Add(new DaySchedule { Day = day.Substring(0, day.Length-2), ScheduleItems = scheduleItems });
                 }
 
-                Days.Add(new DaySchedule { Day = day.Substring(0, day.Length-2), ScheduleItems = scheduleItems });
-            }
         }
     }
 

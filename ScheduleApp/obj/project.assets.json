@@ -35367,11 +35367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\ScheduleApp\\ScheduleApp.csproj",
+      "projectUniqueName": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\ScheduleApp.csproj",
       "projectName": "ScheduleApp",
-      "projectPath": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\ScheduleApp\\ScheduleApp.csproj",
+      "projectPath": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\ScheduleApp.csproj",
       "packagesPath": "C:\\Users\\sloke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\ScheduleApp\\obj\\",
+      "outputPath": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

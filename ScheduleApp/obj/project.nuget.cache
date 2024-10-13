@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iX4KHaGIeos=",
+  "dgSpecHash": "d030GnJyUFw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\ScheduleApp\\ScheduleApp.csproj",
+  "projectFilePath": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\ScheduleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sloke\\.nuget\\packages\\communitytoolkit.maui\\9.1.0\\communitytoolkit.maui.9.1.0.nupkg.sha512",
     "C:\\Users\\sloke\\.nuget\\packages\\communitytoolkit.maui.core\\9.1.0\\communitytoolkit.maui.core.9.1.0.nupkg.sha512",

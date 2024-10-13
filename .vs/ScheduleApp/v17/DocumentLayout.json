@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\",
+  "WorkspaceRootPath": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\mauischeduleapp\\scheduleapp\\models\\week1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\models\\week1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\setschedule.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\setschedule.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|c:\\users\\sloke\\source\\repos\\scheduleapp\\scheduleapp\\views\\setschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9C1EAEA4-D0C5-449E-BA1B-12BF4C5B4A9C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\views\\setschedule.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,16 +29,33 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Week1.cs",
-              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\ScheduleApp\\Models\\Week1.cs",
-              "RelativeDocumentMoniker": "ScheduleApp\\Models\\Week1.cs",
-              "ToolTip": "C:\\Users\\sloke\\source\\repos\\MAUIscheduleAPP\\ScheduleApp\\Models\\Week1.cs",
-              "RelativeToolTip": "ScheduleApp\\Models\\Week1.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAswBsAAABOAAAAAAAAAA==",
+              "Title": "SetSchedule.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\SetSchedule.xaml.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\SetSchedule.xaml.cs",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\SetSchedule.xaml.cs",
+              "RelativeToolTip": "ScheduleApp\\Views\\SetSchedule.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T15:57:34.055Z",
+              "WhenOpened": "2024-10-13T14:20:36.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetSchedule.xaml",
+              "DocumentMoniker": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\SetSchedule.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\Views\\SetSchedule.xaml",
+              "ToolTip": "C:\\Users\\sloke\\source\\repos\\ScheduleApp\\ScheduleApp\\Views\\SetSchedule.xaml",
+              "RelativeToolTip": "ScheduleApp\\Views\\SetSchedule.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T14:20:35.749Z",
               "EditorCaption": ""
             }
           ]
